@@ -1,0 +1,201 @@
+    probe=[];
+    if(participant==0){
+	stimulus_1=shuffle(rr_vector);
+	stimulus_2=shuffle(an_vector);
+	stimulus_3=shuffle(mp_vector);
+	stimulus_4=shuffle(av_vector);
+	probe=shuffle(an_probes);
+    }
+
+    else if(participant==1){
+	stimulus_1=shuffle(mp_vector);
+	stimulus_2=shuffle(an_vector);
+	stimulus_3=shuffle(rr_vector);
+	stimulus_4=shuffle(av_vector);
+	probe=shuffle(an_probes);
+    }
+    
+    else if(participant==2){
+	stimulus_1=shuffle(rr_vector);
+	stimulus_2=shuffle(mp_vector);
+	stimulus_3=shuffle(an_vector);
+	stimulus_4=shuffle(av_vector);
+	probe=shuffle(mp_probes);
+    }
+    
+    else if(participant==3){
+	stimulus_1=shuffle(an_vector);
+	stimulus_2=shuffle(mp_vector);
+	stimulus_3=shuffle(rr_vector);
+	stimulus_4=shuffle(av_vector);
+	probe=shuffle(mp_probes);
+    }
+    
+    else if(participant==4){
+	stimulus_1=shuffle(mp_vector);
+	stimulus_2=shuffle(rr_vector);
+	stimulus_3=shuffle(an_vector);
+	stimulus_4=shuffle(av_vector);
+	probe=shuffle(rr_probes);
+    }
+    
+    else if(participant==5){
+	stimulus_1=shuffle(an_vector);
+	stimulus_2=shuffle(rr_vector);
+	stimulus_3=shuffle(mp_vector);
+	stimulus_4=shuffle(av_vector);
+	probe=shuffle(rr_probes);
+    }
+    
+    else if(participant==6){
+	stimulus_1=shuffle(rr_vector);
+	stimulus_2=shuffle(av_vector);
+	stimulus_3=shuffle(mp_vector);
+	stimulus_4=shuffle(an_vector);
+	probe=shuffle(av_probes);
+    }
+    
+    else if(participant==7){
+	stimulus_1=shuffle(mp_vector);
+	stimulus_2=shuffle(av_vector);
+	stimulus_3=shuffle(rr_vector);
+	stimulus_4=shuffle(an_vector);
+	probe=shuffle(av_probes);
+    }
+    
+    else if(participant==8){
+	stimulus_1=shuffle(rr_vector);
+	stimulus_2=shuffle(mp_vector);
+	stimulus_3=shuffle(av_vector);
+	stimulus_4=shuffle(an_vector);
+	probe=shuffle(mp_probes);
+    }
+    
+    else if(participant==9){
+	stimulus_1=shuffle(av_vector);
+	stimulus_2=shuffle(mp_vector);
+	stimulus_3=shuffle(rr_vector);
+	stimulus_4=shuffle(an_vector);
+	probe=shuffle(mp_probes);
+    }
+    
+    else if(participant==10){
+	stimulus_1=shuffle(mp_vector);
+	stimulus_2=shuffle(rr_vector);
+	stimulus_3=shuffle(av_vector);
+	stimulus_4=shuffle(an_vector);
+	probe=shuffle(rr_probes);
+    }
+    
+    else if(participant==11){
+	stimulus_1=shuffle(av_vector);
+	stimulus_2=shuffle(rr_vector);
+	stimulus_3=shuffle(mp_vector);
+	stimulus_4=shuffle(an_vector);
+	probe=shuffle(rr_probes);
+    }
+    
+    else if(participant==12){
+	stimulus_1=shuffle(rr_vector);
+	stimulus_2=shuffle(av_vector);
+	stimulus_3=shuffle(an_vector);
+	stimulus_4=shuffle(mp_vector);
+	probe=shuffle(av_probes);
+    }
+    
+    else if(participant==13){
+	stimulus_1=shuffle(an_vector);
+	stimulus_2=shuffle(av_vector);
+	stimulus_3=shuffle(rr_vector);
+	stimulus_4=shuffle(mp_vector);
+	probe=shuffle(av_probes);
+    }
+    
+    else if(participant==14){
+	stimulus_1=shuffle(rr_vector);
+	stimulus_2=shuffle(an_vector);
+	stimulus_3=shuffle(av_vector);
+	stimulus_4=shuffle(mp_vector);
+	probe=shuffle(an_probes);
+    }
+    
+    else if(participant==15){
+	stimulus_1=shuffle(av_vector);
+	stimulus_2=shuffle(an_vector);
+	stimulus_3=shuffle(rr_vector);
+	stimulus_4=shuffle(mp_vector);
+	probe=shuffle(an_probes);
+    }
+    
+    else if(participant==16){
+	stimulus_1=shuffle(an_vector);
+	stimulus_2=shuffle(rr_vector);
+	stimulus_3=shuffle(av_vector);
+	stimulus_4=shuffle(mp_vector);
+	probe=shuffle(rr_probes);
+    }
+    
+    else if(participant==17){
+	stimulus_1=shuffle(av_vector);
+	stimulus_2=shuffle(rr_vector);
+	stimulus_3=shuffle(an_vector);
+	stimulus_4=shuffle(mp_vector);
+	probe=shuffle(rr_probes);
+    }
+    
+    else if(participant==18){
+	stimulus_1=shuffle(mp_vector);
+	stimulus_2=shuffle(av_vector);
+	stimulus_3=shuffle(an_vector);
+	stimulus_4=shuffle(rr_vector);
+	probe=shuffle(av_probes);
+    }
+    
+    else if(participant==19){
+	stimulus_1=shuffle(an_vector);
+	stimulus_2=shuffle(av_vector);
+	stimulus_3=shuffle(mp_vector);
+	stimulus_4=shuffle(rr_vector);
+	probe=shuffle(av_probes);
+    }
+    
+    else if(participant==20){
+	stimulus_1=shuffle(mp_vector);
+	stimulus_2=shuffle(an_vector);
+	stimulus_3=shuffle(av_vector);
+	stimulus_4=shuffle(rr_vector);
+	probe=shuffle(an_probes);
+    }
+    
+    else if(participant==21){
+	stimulus_1=shuffle(av_vector);
+	stimulus_2=shuffle(an_vector);
+	stimulus_3=shuffle(mp_vector);
+	stimulus_4=shuffle(rr_vector);
+	probe=shuffle(an_probes);
+    }
+    
+    else if(participant==22){
+	stimulus_1=shuffle(an_vector);
+	stimulus_2=shuffle(mp_vector);
+	stimulus_3=shuffle(av_vector);
+	stimulus_4=shuffle(rr_vector);
+	probe=shuffle(mp_probes);
+    }
+    
+    else if(participant==23){
+	stimulus_1=shuffle(av_vector);
+	stimulus_2=shuffle(mp_vector);
+	stimulus_3=shuffle(an_vector);
+	stimulus_4=shuffle(rr_vector);
+	probe=shuffle(mp_probes);
+    }
+
+
+    
+    stimulus_1=stimulus_1.slice(0,trial_n);
+    stimulus_2=stimulus_2.slice(0,trial_n);
+    stimulus_3=stimulus_3.slice(0,trial_n);
+    stimulus_4=stimulus_4.slice(0,trial_n);
+
+    stimulus_2[3]=probe[0];
