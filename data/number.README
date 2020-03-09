@@ -1,4 +1,4 @@
-After the first four trials a pause was added between the continue to
-stimulus experiment and the experiment itself. This threw off the
-trial index and so this was adjusted by hand for the first four
-trials to make the automatic processing easier.
+After the first four subjects a pause was added between the "continue to
+stimulus" screen and the stimulus itself. This threw off the trial
+index by one and so the index for 53 to end was adjusted by hand for
+the first four subjects to make the automatic processing easier.
